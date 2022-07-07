@@ -1,3 +1,6 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .container1{
     position:relative;
     text-align:center;
@@ -6,16 +9,19 @@
   }
 .text-block {
     position:absolute;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-bottom: 20 px;
+    
 }
 h1{
     font-size: 50px;
 }
 #link-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(192, 149, 68),rgb(247, 9, 195));
+    background-color: deeppink;
     padding: 5px 20px;
     color: whitesmoke;
     border-radius: 10px;
@@ -44,10 +50,10 @@ p{
     padding-right: 10%;
 }
 .select{
-    margin: -10px;
+    margin: -5px;
     border-radius: 10px;
-    border:7px solid rgb(194, 29, 29);
-    background-color: rgb(173, 117, 117);
+    border:3px solid rgb(194, 29, 29);
+    background-color:rgb(223, 198, 58)
 }
 #s-tk{
     color:rgb(194, 29, 29);
@@ -85,13 +91,13 @@ p{
     
 }
 button{
-    background-color: darkgreen;
+    background-color: deeppink;
 }
 footer h2{
     text-align: center;
     color: red;
     padding-top: 10px;
-    font-style:italic;
+    font-family: 'Splash', cursive;
 }
 footer p{
     text-align: center;
@@ -101,3 +107,5 @@ footer p{
 #ftr-bck{
     background-color: black;
 }
+
+
